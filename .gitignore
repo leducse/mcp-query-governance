@@ -1,0 +1,34 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# AWS CDK
+infra/cdk/cdk.out/
+infra/cdk/.venv/
+*.swp
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# SageMaker / data (generated at build time)
+data/
+outputs/
+sagemaker/output/
+
+# CDK context
+cdk.context.json
