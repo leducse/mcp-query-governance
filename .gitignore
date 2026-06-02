@@ -20,14 +20,17 @@ infra/cdk/.venv/
 .env.*
 !.env.example
 
+# Local databases (SQLite stand-in for the RDS demo warehouse)
+*.db
+
 # IDE
 .idea/
 .vscode/
 .DS_Store
 
-# SageMaker / data (generated at build time)
-data/
-outputs/
+# Generated data, but keep the committed synthetic sample + demo outputs
+data/*
+!data/sample/
 sagemaker/output/
 
 # CDK context

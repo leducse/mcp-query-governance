@@ -1,0 +1,62 @@
+{
+  "shadow-abuser-02": {
+    "state": "flagged",
+    "last_anomaly_score": 4.313,
+    "updated_at": "2026-06-02T00:56:59.057221+00:00"
+  },
+  "shadow-abuser-01": {
+    "state": "flagged",
+    "last_anomaly_score": 4.046,
+    "updated_at": "2026-06-02T00:56:59.057515+00:00"
+  },
+  "analyst-006": {
+    "state": "normal",
+    "last_anomaly_score": 2.513,
+    "updated_at": "2026-06-02T00:56:59.057586+00:00"
+  },
+  "analyst-003": {
+    "state": "normal",
+    "last_anomaly_score": 2.305,
+    "updated_at": "2026-06-02T00:56:59.057587+00:00"
+  },
+  "analyst-004": {
+    "state": "normal",
+    "last_anomaly_score": 2.256,
+    "updated_at": "2026-06-02T00:56:59.057589+00:00"
+  },
+  "analyst-002": {
+    "state": "normal",
+    "last_anomaly_score": 2.047,
+    "updated_at": "2026-06-02T00:56:59.057590+00:00"
+  },
+  "analyst-005": {
+    "state": "normal",
+    "last_anomaly_score": 2.046,
+    "updated_at": "2026-06-02T00:56:59.057591+00:00"
+  },
+  "analyst-008": {
+    "state": "normal",
+    "last_anomaly_score": 1.947,
+    "updated_at": "2026-06-02T00:56:59.057592+00:00"
+  },
+  "analyst-001": {
+    "state": "normal",
+    "last_anomaly_score": 1.866,
+    "updated_at": "2026-06-02T00:56:59.057593+00:00"
+  },
+  "analyst-009": {
+    "state": "normal",
+    "last_anomaly_score": 1.832,
+    "updated_at": "2026-06-02T00:56:59.057594+00:00"
+  },
+  "analyst-010": {
+    "state": "normal",
+    "last_anomaly_score": 1.766,
+    "updated_at": "2026-06-02T00:56:59.057595+00:00"
+  },
+  "analyst-007": {
+    "state": "normal",
+    "last_anomaly_score": 1.719,
+    "updated_at": "2026-06-02T00:56:59.057596+00:00"
+  }
+}

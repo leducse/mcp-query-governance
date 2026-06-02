@@ -1,0 +1,13 @@
+pandas>=2.1
+numpy>=1.26
+scikit-learn>=1.4
+matplotlib>=3.8
+
+# Optional Postgres backend (RDS PostgreSQL stand-in). SQLite is the default
+# local backend and needs no extra package. Uncomment to use Postgres:
+# psycopg2-binary>=2.9
+
+# boto3 is only referenced in guarded/mocked form for the documented SageMaker
+# Random Cut Forest swap; it is NOT required to run the local demo. Uncomment
+# only if wiring the real AWS path:
+# boto3>=1.34

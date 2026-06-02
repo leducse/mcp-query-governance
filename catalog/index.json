@@ -1,0 +1,10 @@
+{
+  "catalog_version": "1.0.0",
+  "queries": [
+    {
+      "query_id": "pipeline_summary",
+      "version": "1.0.0",
+      "description": "Monthly pipeline ARR by region for LLM tool selection."
+    }
+  ]
+}

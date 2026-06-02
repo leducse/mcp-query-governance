@@ -1,0 +1,13 @@
+{
+  "query_id": "pipeline_summary",
+  "version": "1.0.0",
+  "description": "Monthly pipeline ARR by region for LLM tool selection.",
+  "parameters": {
+    "fiscal_year": { "type": "integer", "required": true },
+    "region_code": { "type": "string", "required": false, "enum": ["NA", "EMEA", "APAC"] }
+  },
+  "sql_template": "SELECT region_code, SUM(arr) AS arr FROM pipeline WHERE fiscal_year = :fiscal_year {{RLS}} GROUP BY region_code ORDER BY region_code",
+  "rls_column": "tenant_id",
+  "optional_filters": { "region_code": "region_code" },
+  "max_rows": 500
+}
